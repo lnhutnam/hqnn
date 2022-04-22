@@ -66,4 +66,4 @@ with torch.no_grad():
     print('Performance on test data:\n\tLoss: {:.4f}\n\tAccuracy: {:.1f}%'.format(
         sum(total_loss) / len(total_loss),
         correct / len(test_loader) * 100 / batch_size)
-        )
+    )
